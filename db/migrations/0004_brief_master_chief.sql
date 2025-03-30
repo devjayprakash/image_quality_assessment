@@ -1,0 +1,1 @@
+ALTER TABLE "image" ADD COLUMN "deleted_from_s3" boolean DEFAULT false;

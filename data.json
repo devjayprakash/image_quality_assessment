@@ -1,0 +1,1234 @@
+[
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_31_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A0.png"
+        },
+        {
+          "image": "I_31_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A13.png"
+        },
+        {
+          "image": "I_31_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A14.png"
+        },
+        {
+          "image": "I_31_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A15.png"
+        },
+        {
+          "image": "I_31_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A4.jpg"
+        },
+        {
+          "image": "I_31_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A5.jpg"
+        },
+        {
+          "image": "I_31_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_31_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C0.png"
+        },
+        {
+          "image": "I_31_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C13.png"
+        },
+        {
+          "image": "I_31_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C14.png"
+        },
+        {
+          "image": "I_31_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C15.png"
+        },
+        {
+          "image": "I_31_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C4.jpg"
+        },
+        {
+          "image": "I_31_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C5.jpg"
+        },
+        {
+          "image": "I_31_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_31_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U0.png"
+        },
+        {
+          "image": "I_31_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U13.png"
+        },
+        {
+          "image": "I_31_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U14.png"
+        },
+        {
+          "image": "I_31_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U15.png"
+        },
+        {
+          "image": "I_31_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U4.jpg"
+        },
+        {
+          "image": "I_31_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U5.jpg"
+        },
+        {
+          "image": "I_31_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_131/I_31_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_131"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_32_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A0.png"
+        },
+        {
+          "image": "I_32_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A13.png"
+        },
+        {
+          "image": "I_32_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A14.png"
+        },
+        {
+          "image": "I_32_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A15.png"
+        },
+        {
+          "image": "I_32_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A4.jpg"
+        },
+        {
+          "image": "I_32_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A5.jpg"
+        },
+        {
+          "image": "I_32_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_A6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_32_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U0.png"
+        },
+        {
+          "image": "I_32_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U13.png"
+        },
+        {
+          "image": "I_32_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U14.png"
+        },
+        {
+          "image": "I_32_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U15.png"
+        },
+        {
+          "image": "I_32_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U4.jpg"
+        },
+        {
+          "image": "I_32_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U5.jpg"
+        },
+        {
+          "image": "I_32_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_132/I_32_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_132"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_33_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A0.png"
+        },
+        {
+          "image": "I_33_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A13.png"
+        },
+        {
+          "image": "I_33_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A14.png"
+        },
+        {
+          "image": "I_33_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A15.png"
+        },
+        {
+          "image": "I_33_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A4.jpg"
+        },
+        {
+          "image": "I_33_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A5.jpg"
+        },
+        {
+          "image": "I_33_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_A6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_33_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U0.png"
+        },
+        {
+          "image": "I_33_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U13.png"
+        },
+        {
+          "image": "I_33_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U14.png"
+        },
+        {
+          "image": "I_33_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U15.png"
+        },
+        {
+          "image": "I_33_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U4.jpg"
+        },
+        {
+          "image": "I_33_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U5.jpg"
+        },
+        {
+          "image": "I_33_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_133/I_33_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_133"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_34_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A0.png"
+        },
+        {
+          "image": "I_34_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A13.png"
+        },
+        {
+          "image": "I_34_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A14.png"
+        },
+        {
+          "image": "I_34_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A15.png"
+        },
+        {
+          "image": "I_34_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A4.jpg"
+        },
+        {
+          "image": "I_34_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A5.jpg"
+        },
+        {
+          "image": "I_34_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_A6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_34_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U0.png"
+        },
+        {
+          "image": "I_34_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U13.png"
+        },
+        {
+          "image": "I_34_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U14.png"
+        },
+        {
+          "image": "I_34_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U15.png"
+        },
+        {
+          "image": "I_34_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U4.jpg"
+        },
+        {
+          "image": "I_34_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U5.jpg"
+        },
+        {
+          "image": "I_34_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_134/I_34_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_134"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_35_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A0.png"
+        },
+        {
+          "image": "I_35_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A13.png"
+        },
+        {
+          "image": "I_35_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A14.png"
+        },
+        {
+          "image": "I_35_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A15.png"
+        },
+        {
+          "image": "I_35_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A4.jpg"
+        },
+        {
+          "image": "I_35_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A5.jpg"
+        },
+        {
+          "image": "I_35_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_35_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C0.png"
+        },
+        {
+          "image": "I_35_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C13.png"
+        },
+        {
+          "image": "I_35_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C14.png"
+        },
+        {
+          "image": "I_35_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C15.png"
+        },
+        {
+          "image": "I_35_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C4.jpg"
+        },
+        {
+          "image": "I_35_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C5.jpg"
+        },
+        {
+          "image": "I_35_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_35_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U0.png"
+        },
+        {
+          "image": "I_35_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U13.png"
+        },
+        {
+          "image": "I_35_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U14.png"
+        },
+        {
+          "image": "I_35_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U15.png"
+        },
+        {
+          "image": "I_35_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U4.jpg"
+        },
+        {
+          "image": "I_35_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U5.jpg"
+        },
+        {
+          "image": "I_35_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_135/I_35_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_135"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_36_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A0.png"
+        },
+        {
+          "image": "I_36_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A13.png"
+        },
+        {
+          "image": "I_36_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A14.png"
+        },
+        {
+          "image": "I_36_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A15.png"
+        },
+        {
+          "image": "I_36_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A4.jpg"
+        },
+        {
+          "image": "I_36_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A5.jpg"
+        },
+        {
+          "image": "I_36_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_36_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C0.png"
+        },
+        {
+          "image": "I_36_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C13.png"
+        },
+        {
+          "image": "I_36_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C14.png"
+        },
+        {
+          "image": "I_36_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C15.png"
+        },
+        {
+          "image": "I_36_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C4.jpg"
+        },
+        {
+          "image": "I_36_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C5.jpg"
+        },
+        {
+          "image": "I_36_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_36_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U13.png"
+        },
+        {
+          "image": "I_36_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U14.png"
+        },
+        {
+          "image": "I_36_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U15.png"
+        },
+        {
+          "image": "I_36_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U4.jpg"
+        },
+        {
+          "image": "I_36_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U5.jpg"
+        },
+        {
+          "image": "I_36_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_136/I_36_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_136"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_37_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A0.png"
+        },
+        {
+          "image": "I_37_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A13.png"
+        },
+        {
+          "image": "I_37_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A14.png"
+        },
+        {
+          "image": "I_37_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A15.png"
+        },
+        {
+          "image": "I_37_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A4.jpg"
+        },
+        {
+          "image": "I_37_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A5.jpg"
+        },
+        {
+          "image": "I_37_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_37_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C0.png"
+        },
+        {
+          "image": "I_37_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C13.png"
+        },
+        {
+          "image": "I_37_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C14.png"
+        },
+        {
+          "image": "I_37_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C15.png"
+        },
+        {
+          "image": "I_37_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C4.jpg"
+        },
+        {
+          "image": "I_37_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C5.jpg"
+        },
+        {
+          "image": "I_37_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_37_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U0.png"
+        },
+        {
+          "image": "I_37_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U13.png"
+        },
+        {
+          "image": "I_37_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U14.png"
+        },
+        {
+          "image": "I_37_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U15.png"
+        },
+        {
+          "image": "I_37_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U4.jpg"
+        },
+        {
+          "image": "I_37_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U5.jpg"
+        },
+        {
+          "image": "I_37_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_137/I_37_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_137"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_38_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A0.png"
+        },
+        {
+          "image": "I_38_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A13.png"
+        },
+        {
+          "image": "I_38_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A14.png"
+        },
+        {
+          "image": "I_38_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A15.png"
+        },
+        {
+          "image": "I_38_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A4.jpg"
+        },
+        {
+          "image": "I_38_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A5.jpg"
+        },
+        {
+          "image": "I_38_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_38_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C0.png"
+        },
+        {
+          "image": "I_38_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C13.png"
+        },
+        {
+          "image": "I_38_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C14.png"
+        },
+        {
+          "image": "I_38_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C15.png"
+        },
+        {
+          "image": "I_38_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C4.jpg"
+        },
+        {
+          "image": "I_38_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C5.jpg"
+        },
+        {
+          "image": "I_38_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_38_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U0.png"
+        },
+        {
+          "image": "I_38_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U13.png"
+        },
+        {
+          "image": "I_38_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U14.png"
+        },
+        {
+          "image": "I_38_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U15.png"
+        },
+        {
+          "image": "I_38_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U4.jpg"
+        },
+        {
+          "image": "I_38_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U5.jpg"
+        },
+        {
+          "image": "I_38_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_138/I_38_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_138"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_39_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A0.png"
+        },
+        {
+          "image": "I_39_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A13.png"
+        },
+        {
+          "image": "I_39_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A14.png"
+        },
+        {
+          "image": "I_39_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A15.png"
+        },
+        {
+          "image": "I_39_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A4.jpg"
+        },
+        {
+          "image": "I_39_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A5.jpg"
+        },
+        {
+          "image": "I_39_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_39_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C0.png"
+        },
+        {
+          "image": "I_39_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C13.png"
+        },
+        {
+          "image": "I_39_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C14.png"
+        },
+        {
+          "image": "I_39_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C15.png"
+        },
+        {
+          "image": "I_39_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C4.jpg"
+        },
+        {
+          "image": "I_39_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C5.jpg"
+        },
+        {
+          "image": "I_39_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_39_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U0.png"
+        },
+        {
+          "image": "I_39_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U13.png"
+        },
+        {
+          "image": "I_39_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U14.png"
+        },
+        {
+          "image": "I_39_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U15.png"
+        },
+        {
+          "image": "I_39_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U4.jpg"
+        },
+        {
+          "image": "I_39_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U5.jpg"
+        },
+        {
+          "image": "I_39_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_139/I_39_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_139"
+  },
+  {
+    "images": {
+      "A": [
+        {
+          "image": "I_40_A0.png",
+          "id": "A",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A0.png"
+        },
+        {
+          "image": "I_40_A13.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A13.png"
+        },
+        {
+          "image": "I_40_A14.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A14.png"
+        },
+        {
+          "image": "I_40_A15.png",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A15.png"
+        },
+        {
+          "image": "I_40_A4.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A4.jpg"
+        },
+        {
+          "image": "I_40_A5.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A5.jpg"
+        },
+        {
+          "image": "I_40_A6.jpg",
+          "id": "A",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_A6.jpg"
+        }
+      ],
+      "C": [
+        {
+          "image": "I_40_C0.png",
+          "id": "C",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C0.png"
+        },
+        {
+          "image": "I_40_C13.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C13.png"
+        },
+        {
+          "image": "I_40_C14.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C14.png"
+        },
+        {
+          "image": "I_40_C15.png",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C15.png"
+        },
+        {
+          "image": "I_40_C4.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C4.jpg"
+        },
+        {
+          "image": "I_40_C5.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C5.jpg"
+        },
+        {
+          "image": "I_40_C6.jpg",
+          "id": "C",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_C6.jpg"
+        }
+      ],
+      "U": [
+        {
+          "image": "I_40_U0.png",
+          "id": "U",
+          "is_original": true,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U0.png"
+        },
+        {
+          "image": "I_40_U13.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U13.png"
+        },
+        {
+          "image": "I_40_U14.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U14.png"
+        },
+        {
+          "image": "I_40_U15.png",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U15.png"
+        },
+        {
+          "image": "I_40_U4.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U4.jpg"
+        },
+        {
+          "image": "I_40_U5.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U5.jpg"
+        },
+        {
+          "image": "I_40_U6.jpg",
+          "id": "U",
+          "is_original": false,
+          "image_path": "/Users/jayprakashpathak/projects/image-scorer/data/Session_140/I_40_U6.jpg"
+        }
+      ]
+    },
+    "session_id": "Session_140"
+  }
+]
