@@ -77,28 +77,9 @@ export async function GET(req: Request) {
         const doc = new PDFDocument();
         const chunks: Buffer[] = [];
 
-        doc.on("data", (chunk) => chunks.push(chunk));
-        doc.on("end", () => {});
-
-        doc.fontSize(16).text("Image Labeling Results", { align: "center" });
-        doc.moveDown();
-
-        formattedResults.forEach((result) => {
-          doc.fontSize(12);
-          doc.text(`Result ID: ${result.id}`);
-          doc.text(`User ID: ${result.user_id}`);
-          doc.text(`Score: ${result.score}`);
-          doc.text(`Created At: ${new Date(result.created_at).toLocaleString()}`);
-          doc.text(`Image Key: ${result.image_key}`);
-          doc.text(`Batch ID: ${result.batch_id}`);
-          doc.text(`Image Batch ID: ${result.image_batch_id}`);
-          doc.text(`Class Name: ${result.class_name}`);
-          doc.moveDown();
-        });
-
-        doc.end();
-
-        return new Promise((resolve) => {
+        return new Promise<Response>((resolve, reject) => {
+          doc.on("data", (chunk) => chunks.push(chunk));
+          
           doc.on("end", () => {
             const buffer = Buffer.concat(chunks);
             resolve(
@@ -110,6 +91,36 @@ export async function GET(req: Request) {
               })
             );
           });
+
+          // Handle potential errors
+          doc.on("error", (err) => {
+            reject(err);
+          });
+
+          // Write the PDF content
+          doc.fontSize(16).text("Image Labeling Results", { align: "center" });
+          doc.moveDown();
+
+          formattedResults.forEach((result) => {
+            doc.fontSize(12);
+            doc.text(`Result ID: ${result.id}`);
+            doc.text(`User ID: ${result.user_id}`);
+            doc.text(`Score: ${result.score}`);
+            doc.text(`Created At: ${new Date(result.created_at).toLocaleString()}`);
+            doc.text(`Image Key: ${result.image_key}`);
+            doc.text(`Batch ID: ${result.batch_id}`);
+            doc.text(`Image Batch ID: ${result.image_batch_id}`);
+            doc.text(`Class Name: ${result.class_name}`);
+            doc.moveDown();
+          });
+
+          doc.end();
+        }).catch((error) => {
+          console.error("Error generating PDF:", error);
+          return NextResponse.json(
+            { error: "Failed to generate PDF" },
+            { status: 500 }
+          );
         });
       }
 
