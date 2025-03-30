@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button";
 import { Slider } from "@/components/ui/slider";
 import { toast } from "sonner";
 import { Loader2, SplitSquareHorizontal } from "lucide-react";
+import Image from "next/image";
 
 export default function ScoringPage() {
   const router = useRouter();
@@ -55,7 +56,7 @@ export default function ScoringPage() {
       return;
     }
     fetchCurrentImage();
-  }, []);
+  }, [router, fetchCurrentImage]);
 
   const prefetchNextImage = async () => {
     try {
@@ -314,36 +315,24 @@ export default function ScoringPage() {
           style={{ touchAction: 'none' }}
         >
           {/* Modified image */}
-          <img
+          <Image
             src={imageUrl}
-            alt="Modified image"
-            className="absolute inset-0 w-full h-full object-contain select-none"
-            draggable={false}
-            style={{ 
-              pointerEvents: 'none',
-              userSelect: 'none',
-              touchAction: 'none',
-              WebkitUserSelect: 'none',
-              MozUserSelect: 'none',
-              msUserSelect: 'none'
-            }}
+            alt="Image to score"
+            className="absolute top-0 left-0 w-full h-full object-contain"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
+            style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
           />
 
           {/* Original reference image with clip path */}
-          <img
+          <Image
             src={referenceImageUrl}
             alt="Reference image"
-            className="absolute inset-0 w-full h-full object-contain select-none"
-            style={{ 
-              clipPath: `inset(0 0 0 ${sliderPosition}%)`,
-              pointerEvents: 'none',
-              userSelect: 'none',
-              touchAction: 'none',
-              WebkitUserSelect: 'none',
-              MozUserSelect: 'none',
-              msUserSelect: 'none'
-            }}
-            draggable={false}
+            className="absolute top-0 left-0 w-full h-full object-contain"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            priority
           />
 
           {/* Slider line */}

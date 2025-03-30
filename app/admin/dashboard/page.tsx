@@ -342,7 +342,7 @@ export default function AdminDashboard() {
                   </>
                 ) : (
                   <div className="text-sm text-muted-foreground">
-                    No sync in progress. Click "Sync from S3" to start.
+                    No sync in progress. Click &quot;Sync from S3&quot; to start.
                   </div>
                 )}
 

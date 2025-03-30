@@ -1,33 +1,17 @@
-import { NextResponse } from "next/server";
 import { db } from "@/db";
-import { resultTable, imageTable } from "@/db/schema";
+import { resultsTable } from "@/db/schema";
 import { desc } from "drizzle-orm";
 
-export async function GET(req: Request) {
+export async function GET() {
   try {
-    const results = await db.query.resultTable.findMany({
-      orderBy: [desc(resultTable.createdAt)],
+    const recentResults = await db.query.resultsTable.findMany({
+      orderBy: [desc(resultsTable.createdAt)],
       limit: 10,
-      with: {
-        image: true,
-      },
     });
 
-    const formattedResults = results.map((result) => ({
-      id: result.id,
-      userId: result.user_id,
-      imageId: result.image_id,
-      score: result.score,
-      createdAt: result.createdAt,
-      imageKey: result.image.key,
-    }));
-
-    return NextResponse.json(formattedResults);
+    return Response.json(recentResults);
   } catch (error) {
     console.error("Error fetching recent results:", error);
-    return NextResponse.json(
-      { error: "Failed to fetch recent results" },
-      { status: 500 }
-    );
+    return Response.json({ error: "Failed to fetch recent results" }, { status: 500 });
   }
 } 

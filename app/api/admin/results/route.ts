@@ -3,6 +3,15 @@ import { db } from "@/db";
 import { resultsTable } from "@/db/schema";
 import { desc } from "drizzle-orm";
 
+type ResultsResponse = {
+  id: string;
+  userId: string;
+  imageId: string;
+  score: number;
+  createdAt: Date;
+  imageKey: string;
+}
+
 export async function GET(req: Request) {
   try {
     // Check authentication
@@ -17,58 +26,17 @@ export async function GET(req: Request) {
     const results = await db.query.resultsTable.findMany({
       orderBy: [desc(resultsTable.createdAt)],
       with: {
-        image: {
-          with: {
-            imageBatch: {
-              with: {
-                batch: true,
-              },
-            },
-          },
-        },
-        user: true,
+        image: true,
       },
     });
 
-    // Group results by batch and image batch
-    const groupedResults = results.reduce((acc, result) => {
-      if (!result.image?.imageBatch?.batch) return acc;
-
-      const batchId = result.image.imageBatch.batch.id;
-      const imageBatchId = result.image.imageBatch.id;
-      const className = result.image.imageBatch.class_name;
-
-      if (!acc[batchId]) {
-        acc[batchId] = {
-          id: batchId,
-          createdAt: result.image.imageBatch.batch.createdAt,
-          imageBatches: {},
-        };
-      }
-
-      if (!acc[batchId].imageBatches[imageBatchId]) {
-        acc[batchId].imageBatches[imageBatchId] = {
-          id: imageBatchId,
-          className,
-          results: [],
-        };
-      }
-
-      acc[batchId].imageBatches[imageBatchId].results.push({
-        id: result.id,
-        userId: String(result.user_id),
-        score: result.score,
-        createdAt: result.createdAt,
-        imageKey: result.image.key || "",
-      });
-
-      return acc;
-    }, {} as Record<number, any>);
-
-    // Convert to array format
-    const formattedResults = Object.values(groupedResults).map((batch: any) => ({
-      ...batch,
-      imageBatches: Object.values(batch.imageBatches),
+    const formattedResults: ResultsResponse[] = results.map((result) => ({
+      id: result.id,
+      userId: result.user_id,
+      imageId: result.image_id,
+      score: result.score,
+      createdAt: result.createdAt,
+      imageKey: result.image.key,
     }));
 
     return NextResponse.json(formattedResults);
