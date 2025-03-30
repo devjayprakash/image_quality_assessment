@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import { useRouter } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -49,16 +49,7 @@ export default function ScoringPage() {
   } | null>(null);
   const [isLastImage, setIsLastImage] = useState(false);
 
-  useEffect(() => {
-    const token = localStorage.getItem("token");
-    if (!token) {
-      router.push("/info");
-      return;
-    }
-    fetchCurrentImage();
-  }, [router, fetchCurrentImage]);
-
-  const prefetchNextImage = async () => {
+  const prefetchNextImage = useCallback(async () => {
     try {
       const token = localStorage.getItem("token");
       if (!token) return;
@@ -86,9 +77,9 @@ export default function ScoringPage() {
     } catch (error) {
       console.error("Error prefetching next image:", error);
     }
-  };
+  }, [setIsLastImage, setNextImageData]);
 
-  const fetchCurrentImage = async () => {
+  const fetchCurrentImage = useCallback(async () => {
     setLoading(true);
     try {
       const token = localStorage.getItem("token");
@@ -144,7 +135,25 @@ export default function ScoringPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [
+    router,
+    setLoading,
+    setImageUrl,
+    setReferenceImageUrl,
+    setCurrentImageId,
+    setProgress,
+    isLastImage,
+    prefetchNextImage,
+  ]);
+
+  useEffect(() => {
+    const token = localStorage.getItem("token");
+    if (!token) {
+      router.push("/info");
+      return;
+    }
+    fetchCurrentImage();
+  }, [router, fetchCurrentImage]);
 
   const handleSubmit = async () => {
     try {
@@ -315,25 +324,29 @@ export default function ScoringPage() {
           style={{ touchAction: 'none' }}
         >
           {/* Modified image */}
-          <Image
-            src={imageUrl}
-            alt="Image to score"
-            className="absolute top-0 left-0 w-full h-full object-contain"
-            fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            priority
-            style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
-          />
+          {imageUrl && (
+            <Image
+              src={imageUrl}
+              alt="Image to score"
+              className="absolute top-0 left-0 w-full h-full object-contain"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+              style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
+            />
+          )}
 
           {/* Original reference image with clip path */}
-          <Image
-            src={referenceImageUrl}
-            alt="Reference image"
-            className="absolute top-0 left-0 w-full h-full object-contain"
-            fill
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-            priority
-          />
+          {referenceImageUrl && (
+            <Image
+              src={referenceImageUrl}
+              alt="Reference image"
+              className="absolute top-0 left-0 w-full h-full object-contain"
+              fill
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              priority
+            />
+          )}
 
           {/* Slider line */}
           <div 

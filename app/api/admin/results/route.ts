@@ -4,10 +4,10 @@ import { resultsTable } from "@/db/schema";
 import { desc } from "drizzle-orm";
 
 type ResultsResponse = {
-  id: string;
-  userId: string;
-  imageId: string;
-  score: number;
+  id: number;
+  userId: number | null;
+  imageId: number | null;
+  score: number | null;
   createdAt: Date;
   imageKey: string;
 }
@@ -36,7 +36,7 @@ export async function GET(req: Request) {
       imageId: result.image_id,
       score: result.score,
       createdAt: result.createdAt,
-      imageKey: result.image.key,
+      imageKey: result.image?.imageKey || "",
     }));
 
     return NextResponse.json(formattedResults);

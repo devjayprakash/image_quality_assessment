@@ -1,66 +1,36 @@
-import { WebSocketServer } from "ws";
-import { NextResponse } from "next/server";
 import { db } from "@/db";
 import { userTable } from "@/db/schema";
-import { eq } from "drizzle-orm";
+import { desc } from "drizzle-orm";
 
-const wss = new WebSocketServer({ noServer: true });
+export async function GET() {
+  try {
+    const users = await db.query.userTable.findMany({
+      orderBy: [desc(userTable.updatedAt)],
+      with: {
+        batch: true,
+      },
+    });
 
-// Store active WebSocket connections
-const clients = new Set<WebSocket>();
+    const activeSessions = users
+      .filter(user => {
+        const meta = user.meta as { lastActive?: string } | null;
+        if (!meta?.lastActive) return false;
+        const lastActive = new Date(meta.lastActive);
+        return lastActive > new Date(Date.now() - 5 * 60 * 1000); // Active in last 5 minutes
+      })
+      .map(user => {
+        const meta = user.meta as { lastActive?: string; progress?: number } | null;
+        return {
+          userId: user.id,
+          lastActive: meta?.lastActive ? new Date(meta.lastActive) : user.updatedAt,
+          progress: meta?.progress || 0,
+          batchId: user.batch_id,
+        };
+      });
 
-// Broadcast active sessions to all connected clients
-async function broadcastActiveSessions() {
-  const users = await db.query.userTable.findMany({
-    where: eq(userTable.isActive, true),
-    with: {
-      results: true,
-    },
-  });
-
-  const activeSessions = users.map((user) => ({
-    userId: user.id,
-    lastActive: user.updatedAt,
-    currentImageId: user.currentImageId,
-    progress: (user.results.length / 100) * 100, // Assuming 100 images per batch
-  }));
-
-  const message = JSON.stringify({
-    type: "activeSessions",
-    sessions: activeSessions,
-  });
-
-  clients.forEach((client) => {
-    if (client.readyState === WebSocket.OPEN) {
-      client.send(message);
-    }
-  });
-}
-
-// Handle WebSocket connections
-wss.on("connection", (ws: WebSocket) => {
-  clients.add(ws);
-
-  // Send initial active sessions
-  broadcastActiveSessions();
-
-  // Handle client disconnect
-  ws.on("close", () => {
-    clients.delete(ws);
-  });
-});
-
-export async function GET(req: Request) {
-  if (!req.headers.get("upgrade")?.includes("websocket")) {
-    return new NextResponse("Expected Upgrade: WebSocket", { status: 426 });
+    return Response.json({ sessions: activeSessions });
+  } catch (error) {
+    console.error("Error fetching active sessions:", error);
+    return Response.json({ error: "Failed to fetch active sessions" }, { status: 500 });
   }
-
-  const { socket, response } = Deno.upgradeWebSocket(req);
-
-  // Handle the WebSocket connection
-  wss.handleUpgrade(req, socket, Buffer.alloc(0), (ws: WebSocket) => {
-    wss.emit("connection", ws);
-  });
-
-  return response;
 } 

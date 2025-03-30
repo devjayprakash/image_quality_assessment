@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Loader2 } from "lucide-react";
 
 const AdminPage = () => {
-  const [percentageCompleated , setPercentageCompleated] = useState(0);
+  const [percentageCompleted , setPercentageCompleted] = useState(0);
   const [loading , setLoading] = useState(false);
 
   return (
@@ -17,20 +17,20 @@ const AdminPage = () => {
           <div className="w-full bg-gray-200 rounded">
             <div
               className="bg-green-500 h-2 rounded"
-              style={{ width: `${percentageCompleated}%` }}
+              style={{ width: `${percentageCompleted}%` }}
             ></div>
           </div>
-          <h1>{percentageCompleated} %</h1>
+          <h1>{percentageCompleted} %</h1>
           <Button
             onClick={async () => {
               setLoading(true)
               const result = await syncDataFromS3();
               for await (const item of result) {
                 if (item) {
-                  const total  = item.total as number;
-                  const compleated = item.compleated as number
+                  const total = item.total as number;
+                  const completed = item.completed as number;
 
-                  setPercentageCompleated(parseInt(((compleated / total) * 100).toFixed(0)))
+                  setPercentageCompleted(parseInt(((completed / total) * 100).toFixed(0)));
                 }
               }
               setLoading(false)
