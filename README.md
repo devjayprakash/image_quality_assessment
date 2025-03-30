@@ -1,36 +1,131 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Image Quality Assessment
+
+A modern web application for subjective image quality assessment, built with Next.js and TypeScript. This tool allows users to compare and score image quality using an interactive slider interface.
+
+## Features
+
+- **Interactive Image Comparison**
+  - Side-by-side image comparison with a draggable slider
+  - Touch-friendly interface for mobile devices
+  - Real-time visual feedback
+
+- **Progress Tracking**
+  - Batch-based image assessment
+  - Overall progress visualization
+  - Current batch and total progress indicators
+
+- **User Management**
+  - JWT-based authentication
+  - Session management
+  - Admin dashboard for monitoring
+
+- **Admin Dashboard**
+  - Real-time progress monitoring
+  - User session tracking
+  - S3 synchronization status
+  - Recent results view
+
+- **Performance Optimizations**
+  - Image prefetching for faster transitions
+  - Efficient batch processing
+  - Optimized mobile experience
+
+## Tech Stack
+
+- **Frontend**
+  - Next.js 14
+  - TypeScript
+  - Tailwind CSS
+  - Shadcn UI Components
+
+- **Backend**
+  - Next.js API Routes
+  - PostgreSQL with Drizzle ORM
+  - AWS S3 for image storage
+  - JWT for authentication
 
 ## Getting Started
 
-First, run the development server:
+1. **Prerequisites**
+   ```bash
+   Node.js 18+ 
+   PostgreSQL
+   AWS Account with S3 access
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Environment Setup**
+   Create a `.env` file in the root directory:
+   ```env
+   DATABASE_URL=your_postgres_connection_string
+   AWS_ACCESS_KEY_ID=your_aws_access_key
+   AWS_SECRET_ACCESS_KEY=your_aws_secret_key
+   AWS_REGION=ap-south-1
+   JWT_SECRET=your_jwt_secret
+   ```
+
+3. **Installation**
+   ```bash
+   # Install dependencies
+   npm install
+
+   # Run database migrations
+   npm run db:migrate
+
+   # Start development server
+   npm run dev
+   ```
+
+4. **Build for Production**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## Project Structure
+
+```
+├── app/
+│   ├── admin/           # Admin dashboard
+│   ├── api/            # API routes
+│   ├── components/     # Shared components
+│   └── page.tsx        # Main scoring interface
+├── db/
+│   ├── migrations/     # Database migrations
+│   └── schema.ts       # Database schema
+└── public/            # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **User Flow**
+   - Users receive a unique link or token
+   - Access the scoring interface
+   - Compare images using the slider
+   - Submit scores for each image
+   - Progress through image batches
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Admin Flow**
+   - Access admin dashboard
+   - Monitor user progress
+   - Sync images from S3
+   - View scoring results
 
-## Learn More
+## Security
 
-To learn more about Next.js, take a look at the following resources:
+- JWT-based authentication
+- Secure API endpoints
+- AWS credentials protection
+- XSS prevention
+- CORS configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to the branch
+5. Create a Pull Request
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the MIT License - see the LICENSE file for details.
