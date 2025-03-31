@@ -78,7 +78,8 @@ export default function AdminDashboard() {
     });
 
     // Initialize WebSocket connection
-    const socket = new WebSocket(`ws://${window.location.host}/api/admin/ws`);
+    const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const socket = new WebSocket(`${protocol}//${window.location.host}/api/admin/ws`);
     socket.onmessage = (event) => {
       const data = JSON.parse(event.data);
       if (data.type === "activeSessions") {
