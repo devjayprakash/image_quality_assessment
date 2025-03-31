@@ -11,7 +11,13 @@ const runMigrations = async () => {
     throw new Error('DATABASE_URL is not defined');
   }
 
-  const sql = postgres(connectionString, { max: 1 });
+  console.log('Running migrations with connection string:', connectionString.replace(/:[^@]+@/, ':****@'));
+
+  const sql = postgres(connectionString, { 
+    max: 1,
+    idle_timeout: 20,
+    connect_timeout: 10,
+  });
   const db = drizzle(sql);
 
   console.log('Running migrations...');
